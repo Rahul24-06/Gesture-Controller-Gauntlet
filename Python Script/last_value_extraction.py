@@ -1,6 +1,7 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pprint
+import time 
 
 scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('AI_secret.json', scope)
@@ -69,6 +70,5 @@ while True:
 			pyautogui.keyDown('shift')
 			pyautogui.keyDown('ctrl')
 			pyautogui.keyDown('L')
-		
-
         prev_len = nlen
+	time.sleep(0.1)
