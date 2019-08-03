@@ -30,42 +30,42 @@ while True:
 			time.sleep(0.1)
 			pyautogui.keyUp('tab')
 			
-		else if KEY == "L": #Level
+		elif KEY == "L": #Level
 			pyautogui.keyDown('ctrl')
 			pyautogui.keyDown('L')
 			time.sleep(0.1)
 			pyautogui.keyUp('tab')
 			
-		else if KEY == "C": #Curves
+		elif KEY == "C": #Curves
 			pyautogui.keyDown('ctrl')
 			pyautogui.keyDown('M')
 			time.sleep(0.1)
 			pyautogui.keyUp('tab')
 			
-		else if KEY == "I": #Invert
+		elif KEY == "I": #Invert
 			pyautogui.keyDown('ctrl')
 			pyautogui.keyDown('I')
 						
-		else if KEY == "Enter": #Enter
+		elif KEY == "Enter": #Enter
 			pyautogui.keyUp('enter')
 			
-		else if KEY == "Left": #Left
+		elif KEY == "Left": #Left
 			pyautogui.keyUp('left')
 			
-		else if KEY == "Right": #Right
+		elif KEY == "Right": #Right
 			pyautogui.keyUp('right')
 			
-		else if KEY == "up": #UP
+		elif KEY == "up": #UP
 			pyautogui.keyUp('up')
 			
-		else if KEY == "down": #down
+		elif KEY == "down": #down
 			pyautogui.keyUp('down')
 
-		else if KEY == "U": #Undo
+		elif KEY == "U": #Undo
 			pyautogui.keyDown('ctrl')
 			pyautogui.keyDown('z')
 			
-		else if KEY == "invU": #Redo
+		else KEY == "invU": #Redo
 			pyautogui.keyDown('shift')
 			pyautogui.keyDown('ctrl')
 			pyautogui.keyDown('L')
